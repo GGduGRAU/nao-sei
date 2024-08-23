@@ -1,0 +1,70 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    line-height: 1.6;
+    margin: 12;
+    padding: 20;
+    color: #000000;
+}
+
+header {
+    background: #0758b4;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #dadada;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+.destaques {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 8rem;
+}
+
+.destaque-item {
+    flex: 1;
+    text-align: center;
+}
+
+.destaque-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sobre, .localizacao, .pagamento, .proprietarios {
+    margin-bottom: 2rem;
+}
+
+.sobre img, .localizacao iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #494949;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
